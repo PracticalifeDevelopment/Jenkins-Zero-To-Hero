@@ -5,7 +5,7 @@ kind: Service
   spec:
     type: NodePort
     ports:
-    - name: https
+    - name: http
       port: 80
       targetPort: 8080
       protocol: TCP
